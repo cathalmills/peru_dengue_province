@@ -14,9 +14,9 @@ To run the pipeline you will need a container service such as docker, as-well as
 | File | Description |
 | - | - |
 | `data/cases/2010_2021_cases_full_data.csv` | Dengue line-list case data (2010-2021) |
-| `data/shapefiles/province_pop.csv` | Population estimates per province (1993, 2007, 2017, 2022) |
-| `data/shapefiles/census_data.xlsx` | Census data (2010) |
-| `data/shapefiles/2007_census_data.xls` | Census data (2007) |
+| `data/province/province_pop.csv` | Population estimates per province (1993, 2007, 2017, 2022) |
+| `data/province/census_data.xlsx` | Census data (2010) |
+| `data/province/2007_census_data.xls` | Census data (2007) |
 
 All other data sources (listed below) are downloaded and processed automatically.
 

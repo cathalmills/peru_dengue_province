@@ -194,16 +194,6 @@ rule model_bayes_climate:
         mkdir -p {WORKDIR}/predictions/bayesian
         docker build --platform linux/amd64 -t peru-build .
 
-        # # Historical predictions
-        # docker run --rm --platform linux/amd64 \
-        #     -v {WORKDIR}/scripts:/app/scripts:ro \
-        #     -v {WORKDIR}/workflows:/app/workflows:ro \
-        #     -v {WORKDIR}/data:/app/data \
-        #     -v {WORKDIR}/predictions/bayesian:/app/predictions \
-        #     -e SNAKEMAKE_CORES="{SNAKEMAKE_CORES}" \
-        #     peru-build \
-        #     R -e 'source("scripts/forecasting/historical_bayes.R")'
-
         # Forecasting
         docker run --rm --platform linux/amd64 \
             -v {WORKDIR}/scripts:/app/scripts:ro \
