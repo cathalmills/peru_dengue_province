@@ -1,6 +1,6 @@
 # Interdisciplinary modelling and forecasting of dengue
 
-This repository provides scripts and instructions to perform the analyses presented in the paper *Interdisciplinary modelling and forecasting of dengue* [https://doi.org/10.1101/2024.10.18.24315690].
+This repository provides scripts and instructions to perform the analyses presented in the paper *Multi-model approach to understand and predict past and future dengue epidemic dynamics* [https://doi.org/10.1101/2024.10.18.24315690].
 
 To perform the ensemble analysis presented in the paper requires three steps:
 1. [Data download](#data)
